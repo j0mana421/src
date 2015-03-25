@@ -14,7 +14,7 @@ public class Connect {
 		//String url ="jdbc:mysql://mira.c2m.univ-st-etienne.fr:3306/ma00535m";
 		String url="jdbc:mysql://localhost:3306/projet";
 		try{
-			c = DriverManager.getConnection(url, "root", "oeplmqolcmqols<3");
+			c = DriverManager.getConnection(url, "root", "mdp");
 			System.out.println("Connexion réussie.\n");
 			st = c.createStatement();
 		}catch (SQLException e){
